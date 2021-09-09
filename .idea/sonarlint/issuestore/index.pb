@@ -1,9 +1,31 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 U
 %webbutveckling1/laxa/om-mig/style.css,b\c\bc3201a106b2a842c4ea2d3396a25235220d0d77
 V
-&webbutveckling1/laxa/om-mig/About.html,6\5\650b8adf78a616bc43cbe86ab6eade74443583db
-V
 &webbutveckling1/laxa/om-mig/index.html,a\e\ae08a6a873b522e9967fe2ac91923d03313a033b
+V
+&webbutveckling1/laxa/om-mig/About.html,6\5\650b8adf78a616bc43cbe86ab6eade74443583db
+i
+9webbutveckling1/laxa/Lektioner/2021-09-07/table/style.css,b\2\b2fdb11b6bb8daa50ed0c806026997cc67632de2
+j
+:webbutveckling1/laxa/Lektioner/2021-09-07/table/index.html,1\0\1023c8ba0f81826ce551a70fd856ef7079e87f8e
+k
+;webbutveckling1/laxa/Lektioner/2021-09-07/flexbox/style.css,8\5\8510f7e04f80df856f75aa48a2e1700805db549e
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+l
+<webbutveckling1/laxa/Lektioner/2021-09-07/flexbox/index.html,c\a\ca4efdeee04839ad11cb754a6cf8c9227aa1b975
+\
+,webbutveckling1/laxa/inlamning/css/style.css,f\3\f3b4428cb650f67cfb333de52376349f460b9f02
+\
+,webbutveckling1/laxa/inlamning/products.html,d\b\db1cb59d8fcd9c754eb6251334d629d51cd57785
+Y
+)webbutveckling1/laxa/inlamning/other.html,3\3\33b7d55b4a9eb8b63bea286ceecafcfa5a1c2087
+Y
+)webbutveckling1/laxa/inlamning/index.html,e\d\ed0ce398eb37b54cc0633edf98ceeef469d717fb
+[
++webbutveckling1/laxa/inlamning/courses.html,e\a\eaceea0840dbfac5bfd088134bca7cf36c976a0a
+Y
+)webbutveckling1/laxa/inlamning/blogg.html,9\8\9898274e122ed0b12c0d44faf240b5ea0bb0d181
+Y
+)webbutveckling1/laxa/inlamning/about.html,c\7\c707e3127d4a3567272baea1f01ab666f34c9088
