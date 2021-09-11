@@ -1,6 +1,49 @@
 body{
+background-color: lemonchiffon;
+
     margin: 0;
     padding: 0;
 }
 
+h1{
+    font-family: fantasy;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+    border-bottom: 1px solid orange;
+    border-right: 1px solid red;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px orange;
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+img {
+
+    margin: 10px;
+    transition: all 0.01s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+
+article {
+    float: left;
+}
+
+.red-text {
+    color: darkorange;
+}
+
+#Arbetserfarenhet {
+    color: black;
+}
+
+.t {
+    position: center;
+}

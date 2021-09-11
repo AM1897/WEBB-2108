@@ -14,12 +14,13 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 0.84em 1em ;
+    padding: 0.84em 1em;
     text-decoration: none;
 }
+
 .navbar-link:hover:not(.active) {
-    background-color: darkorange;
+    background-color: lemonchiffon;
 }
 .active {
-    background-color: burlywood;
+    background-color: gold;
 }
