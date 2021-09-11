@@ -1,0 +1,25 @@
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darksalmon;
+}
+
+.navbar-iten {
+    float: left;
+}
+.navbar-link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.84em 1em ;
+    text-decoration: none;
+}
+.navbar-link:hover:not(.active) {
+    background-color: darkorange;
+}
+.active {
+    background-color: burlywood;
+}
