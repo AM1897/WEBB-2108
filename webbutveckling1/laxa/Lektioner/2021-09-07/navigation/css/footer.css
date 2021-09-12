@@ -1,10 +1,10 @@
 footer {
-    position: fixed;
+    position: center;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: linen;
+    background-color: wheat;
     text-align: center;
-    padding: 1em 2em 1em 2em;
+    padding: 0.5em 2em 0.5em 2em;
 
 }

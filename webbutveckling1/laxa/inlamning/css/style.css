@@ -1,11 +1,13 @@
 body{
-background-color: lemonchiffon;
+    background-color: wheat;
+
 
     margin: 0;
     padding: 0;
 }
 
 h1{
+    color: chocolate;
     font-family: fantasy;
     margin-left: auto;
     margin-right: auto;
@@ -16,7 +18,9 @@ h1{
     text-align: center;
     box-shadow: 4px 4px 5px orange;
     margin-top: 10px;
+
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -32,18 +36,41 @@ img:hover {
     transform: scale(1.1);
 }
 
-article {
-    float: left;
-}
-
-.red-text {
-    color: darkorange;
-}
 
 #Arbetserfarenhet {
-    color: black;
+    color: coral;
+    float: left;
+}
+#Favorit\ Serier {
+    color: coral;
+    float: left;
+}
+#Favorit\ filmer {
+    color: coral;
+    float: left;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/5946604/pexels-photo-5946604.jpeg?cs=srgb&dl=pexels-charlotte-may-5946604.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 2900px;
+    background-position: initial;
+    color: coral;
 }
 
-.t {
-    position: center;
+h1{
+    text-align: center;
+}
+
+.container{
+
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 40%;
+    margin: 15px;
+    text-align: left;
+    line-height: 17px;
+    font-size: 15px;
 }

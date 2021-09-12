@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://images.pexels.com/photos/5946604/pexels-photo-5946604.jpeg?cs=srgb&dl=pexels-charlotte-may-5946604.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 2450px;
+    background-position: initial;
+    color: coral;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container{
+    width: 40%;
+    margin: 1px;
+    text-align: left;
+    line-height: 17px;
+    font-size: 15px;
+}
