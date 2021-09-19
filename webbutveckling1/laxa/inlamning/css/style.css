@@ -1,11 +1,6 @@
-body{
-    background-color: wheat;
+*{
 
-
-    margin: 0;
-    padding: 0;
 }
-
 h1{
     color: chocolate;
     font-family: fantasy;
@@ -28,29 +23,23 @@ h1{
 }
 
 img {
+    width: 350px;
+}
 
-    margin: 10px;
+img {
+
+    margin: 20px;
     transition: all 0.01s;
+
 }
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
-#Arbetserfarenhet {
-    color: coral;
-    float: left;
-}
-#Favorit\ Serier {
-    color: coral;
-    float: left;
-}
-#Favorit\ filmer {
-    color: coral;
-    float: left;
-}
+
 body{
-    background-image: url("https://images.pexels.com/photos/5946604/pexels-photo-5946604.jpeg?cs=srgb&dl=pexels-charlotte-may-5946604.jpg&fm=jpg");
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-repeat: no-repeat;
     background-size: 2900px;
     background-position: initial;
@@ -62,15 +51,63 @@ h1{
 }
 
 .container{
-
-    color: blanchedalmond;
     display: flex;
     flex-wrap: wrap;
-}
-.container{
-    width: 40%;
+    width: 60%;
     margin: 15px;
     text-align: left;
     line-height: 17px;
     font-size: 15px;
+}
+.grid-container{
+    width: 40%;
+    margin: 15px;
+    text-align: center;
+    line-height: 17px;
+    font-size: 15px;
+}
+
+
+#Favorit\ Serier {
+    color: orange;
+    position: center;
+}
+#Favorit\ filmer {
+    color: orange;
+    position: center;
+}
+
+
+/*tablet*/
+@media screen and (min-width: 768px){
+    .flex-container{
+        color: orange;
+        display: flex;
+        margin: 20px;
+    }
+
+    img {
+        height: auto;
+        width: 300px;
+
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 992px){
+    .sidebar{
+        flex: 0 1 500px;
+    }
+    .flex-container{
+        color: #d22b1f;
+    }
+    img {
+        height: auto;
+        width: 250px;
+    }
+}
+
+.wrapper{
+    margin: auto;
+    max-width: 1200px;
 }

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+header, section, aside, footer{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.header{
+    background: #03a9f4;
+}
+.hero{
+    background: #d22b1f;
+}
+.content{
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;*/
+    flex: 1;
+    background: #129a22;
+}
+.sidebar{
+    flex: 0 1 380px;    /* sidebar 380px bredd.innan content får sin bredd*/
+    background: #673ab7;
+}
+.footer{
+    background: #616161;
+}
+
+/*table*/
+@media screen and (min-width: 768px) {
+    .flex-container{
+        display: flex;
+    }
+}
+/*desktop*/
+@media screen and (min-width: 992px) {
+    .sidebar{
+        flex: 0 1 500px;
+        background: orange;
+    }
+}
+
+.wrapper{   /*begränsar storlek till*/
+    margin: auto;
+    max-width: 1200px;
+}

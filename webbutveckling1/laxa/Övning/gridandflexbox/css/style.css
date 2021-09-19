@@ -1,0 +1,147 @@
+/*mobile*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/2261166/pexels-photo-2261166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    color: coral;
+}
+
+header, section, aside, footer{
+    margin: 0;
+    padding: 20px;
+    /*border-bottom: 1px solid black;*/
+}
+
+
+.header{
+    /*background: #03a9f4;*/
+}
+
+.hero{
+    /*background: #d22b1f;*/
+}
+
+.wrapper{
+    margin: auto;
+    max-width: 1200px;
+}
+.content{
+    /*background: #129a22;*/
+}
+
+.sidebar{
+    /*background: #673ab7;*/
+
+}
+
+.footer{
+    /*background: #616161;*/
+}
+.red{
+    /*background-color: red;*/
+}
+
+.green{
+    /*background-color: green;*/
+}
+
+.orange{
+    /*background-color: orange;*/
+}
+
+.blue{
+    /*background-color: blue;*/
+}
+
+.footer-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red, .green, .orange, .blue {
+    padding: 20px;
+    flex-basis: 100%;
+}
+
+.grid-container-text-image{
+    display: grid;
+    grid-template-columns: 3fr;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .red, .green, .orange, .blue {
+        flex-basis: 50%;
+    }
+
+    .grid-container-text-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 992px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .sidebar {
+       /*background: orange;*/
+    }
+
+    .red, .green, .orange, .blue {
+        flex-basis: 25%;
+    }
+
+    .grid-container-text-image{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+
+
+/*<div class="grid container wrapper">
+    <header class="header">
+        Om mig
+        <p>
+            Mitt Namn är Aram och bor i Stenungsund tillsammans med min fru och våra 2 pärlor Céline och Dylan.
+            Jag är uppväxt i Ale, Nödinge. Jag har bott i Stenungsund sedan 2015 och jag trivs sådär här ute i orten,
+            tanken är att flytta till stan så fort barnen blir lite större.
+        </p>
+    </header>
+
+    <section class="hero">
+        Varför Webbutvecklare
+
+        <p>Jag har alltid haft intresset för teknik och datorer. Nu har det gått många år att jag pusslade med datorer.
+            Vi pratar om Windows XP tiden början av 2000. Man måste vara aktiv för att hänga med när det gäller tekniken.
+            Det som fick mig söka detta var att egentligen ville jag plugga till app utvecklare.
+            Jag kom tyvärr inte in på den utbildningen. Då fick jag veta om man går webbutveckling kan man bygga appar
+            men om man går apputveckling kan man inte vara webbutvecklare. Jag har aldrig gett mig själv en chans
+            att utveckla min kunskap. I år fick jag möjligheten att börja studera och jag tycker att det är underbart att
+            vara tillbaka i skolan
+        </p>
+    </section>
+</div>*/
+
+/*        <article class="blue">
+            <img class="img-responsive" src="https://data.whicdn.com/images/324992675/original.jpg" alt="Dybala">
+        </article>*/
