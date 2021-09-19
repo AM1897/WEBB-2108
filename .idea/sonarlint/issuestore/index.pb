@@ -19,12 +19,8 @@ o
 ?webbutveckling1/laxa/Lektioner/2021-09-07/navigation/index.html,b\0\b0e75af665ede5657c621036cabeeaa39922aaef
 o
 ?webbutveckling1/laxa/Lektioner/2021-09-07/navigation/about.html,a\0\a0c58910c3384cc47ba704778c4d82cde1295f4e
-V
-&webbutveckling1/laxa/om-mig/About.html,6\5\650b8adf78a616bc43cbe86ab6eade74443583db
 \
 ,webbutveckling1/laxa/inlamning/products.html,d\b\db1cb59d8fcd9c754eb6251334d629d51cd57785
-[
-+webbutveckling1/laxa/inlamning/courses.html,e\a\eaceea0840dbfac5bfd088134bca7cf36c976a0a
 Y
 )webbutveckling1/laxa/inlamning/other.html,3\3\33b7d55b4a9eb8b63bea286ceecafcfa5a1c2087
 Y
@@ -33,8 +29,6 @@ Y
 )webbutveckling1/laxa/inlamning/index.html,e\d\ed0ce398eb37b54cc0633edf98ceeef469d717fb
 ]
 -webbutveckling1/laxa/inlamning/css/navbar.css,b\d\bdea11c507850ce1e69ac7e6929af53e8a294745
-l
-<webbutveckling1/laxa/Lektioner/2021-09-14/grid/css/style.css,0\9\098ca3c5b59a55a2561c8d9dfb9710e86e8c3726
 v
 Fwebbutveckling1/laxa/Lektioner/2021-09-14/gridAndflexbox/css/style.css,0\7\07e6b820ed18e7e9d657b2c875072047f1565e61
 i
@@ -44,11 +38,7 @@ Cwebbutveckling1/laxa/Lektioner/2021-09-14/gridAndflexbox/index.html,5\1\51a332
 e
 5webbutveckling1/laxa/Övning/gridandflexbox/eget.html,a\c\ac9f4e6fc6cdb291b8a1b5675d611c2414b2c519
 i
-9webbutveckling1/laxa/Lektioner/2021-09-14/grid/index.html,5\9\596e1063ad023fb89e689bb4d32c93d0392b81b9
-i
 9webbutveckling1/laxa/Lektioner/2021-09-13/grind/style.css,f\6\f6e4ef109ecc49b493a71af401d6897b7afdb1e2
-\
-,webbutveckling1/laxa/inlamning/css/style.css,f\3\f3b4428cb650f67cfb333de52376349f460b9f02
 j
 :webbutveckling1/laxa/Lektioner/2021-09-13/grind/index.html,a\4\a4fb7a963e561e5fa273688c53a2e4cbf7eb944a
 p

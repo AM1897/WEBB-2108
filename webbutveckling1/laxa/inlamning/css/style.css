@@ -1,6 +1,4 @@
-*{
 
-}
 h1{
     color: chocolate;
     font-family: fantasy;
@@ -73,6 +71,14 @@ h1{
     position: center;
 }
 #Favorit\ filmer {
+    color: orange;
+    position: center;
+}
+#Arbetserfarenhet{
+    color: orange;
+    position: center;
+}
+#Språk{
     color: orange;
     position: center;
 }
