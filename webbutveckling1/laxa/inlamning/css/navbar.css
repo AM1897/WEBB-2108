@@ -9,7 +9,6 @@
 
 .navbar-iten {
     float: left;
-    1
 }
 .navbar-link {
     display: block;
@@ -24,4 +23,20 @@
 }
 .active {
     background-color: gold;
+}
+
+
+/*Tablet*/
+@media screen and (min-width: 768px){
+
+    .active{
+        background-color: white;
+
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 768px){
+    .active{
+        background-color: #616161;
+    }
 }

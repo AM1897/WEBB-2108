@@ -19,11 +19,9 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
 }
-
 img {
     width: 350px;
 }
-
 img {
 
     margin: 20px;
@@ -43,16 +41,16 @@ body{
     background-position: initial;
     color: coral;
 }
-
 h1{
     text-align: center;
 }
 
+
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
-    margin: 15px;
+    width: auto;
+    margin: 15px 15px 54px 15px;
     text-align: left;
     line-height: 17px;
     font-size: 15px;
@@ -63,25 +61,23 @@ h1{
     text-align: center;
     line-height: 17px;
     font-size: 15px;
+
 }
 
 
-#Favorit\ Serier {
+#favorit-serier {
     color: orange;
     position: center;
 }
-#Favorit\ filmer {
+#favorit-filmer {
     color: orange;
     position: center;
 }
-#Arbetserfarenhet{
+#arbetserfarenhet{
     color: orange;
     position: center;
 }
-#Språk{
-    color: orange;
-    position: center;
-}
+
 
 
 /*tablet*/

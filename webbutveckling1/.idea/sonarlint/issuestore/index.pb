@@ -21,21 +21,27 @@ _
 /laxa/Lektioner/2021-09-07/navigation/about.html,1\4\14fdb5cf19e906ee8f84636acb857adec51c3109
 ^
 .laxa/Lektioner/2021-09-07/navigation/style.css,8\5\851b04f80f5c7851f3c0dba11ea67df2a5ca34f9
+Y
+)laxa/Lektioner/2021-09-13/grind/style.css,c\2\c26249fe906652f678645c82417a43b776545db2
+\
+,laxa/Lektioner/2021-09-07/flexbox/index.html,7\a\7ae6ab2401321085569fef1d1c35f801537d4863
+Z
+*laxa/Lektioner/2021-09-13/grind/index.html,4\c\4cb19c803774e0d534f54566adc32450bf70a5d3
+Y
+)laxa/Lektioner/2021-09-14/grid/index.html,b\8\b8152e8ce638a0a9099b1d2228f80ffb9c8951ea
+f
+6laxa/Lektioner/2021-09-14/gridAndflexbox/css/style.css,5\b\5b722b0d51b8f6e4f0d0616bfa0c14a3e4c85827
+c
+3laxa/Lektioner/2021-09-14/gridAndflexbox/index.html,b\7\b79e918d596b883847f21797932c7c0c9d9d143e
+T
+$laxa/Lektioner/2021-09-20/index.html,d\1\d13e86c492e20049e5ae20894479f5b8e1027573
+U
+%laxa/Övning/gridandflexbox/eget.html,3\e\3ec6a7cf94a01f6bcb94e7a09edc3e96172d48d7
 M
 laxa/inlamning/css/navbar.css,d\c\dcb46430341a05d41ce844054556eb361631af4a
 M
 laxa/inlamning/css/footer.css,d\f\df7ef4562682ddf372edd20f4141f55742bcb0ca
-d
-4laxa/Lektioner/2021-09-13/responsive-grind/style.css,3\d\3d327186bd8826a4cc5a64ee55314e12a5c702fb
-e
-5laxa/Lektioner/2021-09-13/responsive-grind/index.html,7\2\72f67fbdbcf2e1fba0fa6b048d2ec5f309eb0077
-\
-,laxa/Lektioner/2021-09-07/flexbox/index.html,7\a\7ae6ab2401321085569fef1d1c35f801537d4863
-I
-laxa/inlamning/about.html,5\0\508002dba62def0017cda1db2b7bd8b186dde5e6
 L
 laxa/inlamning/css/style.css,7\6\76ffd7934b0dade70bc83a827174a4f0072102a0
-Y
-)laxa/Lektioner/2021-09-13/grind/style.css,c\2\c26249fe906652f678645c82417a43b776545db2
-Z
-*laxa/Lektioner/2021-09-13/grind/index.html,4\c\4cb19c803774e0d534f54566adc32450bf70a5d3
+I
+laxa/inlamning/about.html,5\0\508002dba62def0017cda1db2b7bd8b186dde5e6

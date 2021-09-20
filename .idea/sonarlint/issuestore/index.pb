@@ -45,3 +45,15 @@ p
 @webbutveckling1/laxa/Lektioner/2021-09-14/flex/css/css/style.css,3\9\391d57e955b77ed0a8ae8288727e5d2ce38609d0
 m
 =webbutveckling1/laxa/Lektioner/2021-09-14/flex/css/index.html,3\e\3e114f8cc5c531aa83f729c151c5201c05ab8b14
+[
++webbutveckling1/laxa/inlamning/courses.html,e\a\eaceea0840dbfac5bfd088134bca7cf36c976a0a
+i
+9webbutveckling1/laxa/Lektioner/2021-09-14/grid/index.html,5\9\596e1063ad023fb89e689bb4d32c93d0392b81b9
+l
+<webbutveckling1/laxa/Lektioner/2021-09-14/grid/css/style.css,0\9\098ca3c5b59a55a2561c8d9dfb9710e86e8c3726
+V
+&webbutveckling1/laxa/om-mig/About.html,6\5\650b8adf78a616bc43cbe86ab6eade74443583db
+Y
+)webbutveckling1/laxa/inlamning/about.html,c\7\c707e3127d4a3567272baea1f01ab666f34c9088
+\
+,webbutveckling1/laxa/inlamning/css/style.css,f\3\f3b4428cb650f67cfb333de52376349f460b9f02
