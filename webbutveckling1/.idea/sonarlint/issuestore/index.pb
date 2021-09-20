@@ -39,9 +39,3 @@ U
 %laxa/Övning/gridandflexbox/eget.html,3\e\3ec6a7cf94a01f6bcb94e7a09edc3e96172d48d7
 M
 laxa/inlamning/css/navbar.css,d\c\dcb46430341a05d41ce844054556eb361631af4a
-M
-laxa/inlamning/css/footer.css,d\f\df7ef4562682ddf372edd20f4141f55742bcb0ca
-L
-laxa/inlamning/css/style.css,7\6\76ffd7934b0dade70bc83a827174a4f0072102a0
-I
-laxa/inlamning/about.html,5\0\508002dba62def0017cda1db2b7bd8b186dde5e6
