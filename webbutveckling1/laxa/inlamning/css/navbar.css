@@ -1,15 +1,11 @@
-
 #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: palegoldenrod;
+    background-color: chocolate;
 }
 
-.navbar-iten {
-    float: left;
-}
 .navbar-link {
     display: block;
     color: black;
@@ -21,22 +17,31 @@
 .navbar-link:hover:not(.active) {
     background-color: lemonchiffon;
 }
-.active {
-    background-color: gold;
-}
-
 
 /*Tablet*/
 @media screen and (min-width: 768px){
+    #navbar{
+        background-color: goldenrod;
+    }
+    .navbar-item {
+        float: left;
+    }
 
     .active{
-        background-color: white;
+        background-color: orange;
 
     }
 }
 /*Desktop*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px){
+    #navbar{
+        background-color: crimson;
+    }
+    .navbar-item {
+        float: left;
+
+    }
     .active{
-        background-color: #616161;
+        background-color: brown;
     }
 }
