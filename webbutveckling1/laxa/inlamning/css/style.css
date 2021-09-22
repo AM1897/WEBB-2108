@@ -22,7 +22,7 @@ body{
     color: chocolate;
 }
 
-img {
+.image-width {
     width: 240px;
     margin: 15px;
     transition: all 0.01s;
@@ -62,7 +62,7 @@ img:hover {
         margin: 20px;
         display: flex;
     }
-    img{
+    .image-width{
         width: 300px;
     }
     .grid-container{
@@ -88,10 +88,11 @@ img:hover {
     }
     .grid-container{
         color: #d22b1f;
-        margin: 5px 15px 60px 400px;
+        text-align: center;
+        justify-content: center;
         display: flex;
     }
-    img {
+    .image-width {
         height: auto;
         width: 250px;
     }

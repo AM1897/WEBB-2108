@@ -1,23 +1,45 @@
+
+
+
+/*Mobile*/
 body{
     background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    color: wheat;
+    height: 1200px;
+    color: chocolate;
+    text-align: center;
 }
 
-table {
-    background-color: #616161;
-    border-collapse: collapse;
-    width: 50%;
-    margin: 1px 1px 100px 1px;
+div {
+    align-content: center;
 }
 
 th, td {
-    padding: 8px;
+    color: black;
+    background-color: coral;
+    padding: 6px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
 }
 
-tr:hover {background-color:brown;}
+/* Tablet*/
+@media screen and (min-width: 768px ){
+    .container{
+        width: 50%;
+        margin: auto;
+    }
+    th, td {
+        background-color: yellow;
+    }
+}
 
+/*Desktop*/
+@media screen and (min-width: 1200px ){
+    .container {
+    width: max-content;
+    margin: auto;
+    }
+    th, td {
+        background-color: brown;
+    }
+}
