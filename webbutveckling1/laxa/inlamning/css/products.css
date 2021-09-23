@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    color: chocolate;
+    text-align: center;
+}
+
+.grid-container{
+
+    background-color: white;
+    color:black;
+    width: max-content;
+    margin: auto;
+
+}
+img{
+    width: 25%;
+    max-width: 500px;
+}

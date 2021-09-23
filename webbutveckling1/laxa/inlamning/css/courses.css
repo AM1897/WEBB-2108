@@ -13,9 +13,7 @@ body{
 
 div {
     align-content: center;
-}
-
-th, td {
+}  ´+th, td {
     color: black;
     background-color: coral;
     padding: 6px;
