@@ -5,17 +5,54 @@ body{
     height: 1200px;
     color: chocolate;
     text-align: center;
-}
-
-.grid-container{
-
-    background-color: white;
-    color:black;
-    width: max-content;
-    margin: auto;
 
 }
-img{
-    width: 25%;
-    max-width: 500px;
+
+.grid-container {
+    background-color: coral;
+    color: black;
+    margin: auto auto 70px auto;
+    text-align: center;
+
+
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.image-width{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    h1{
+        color: yellow;
+
+    }
+    .grid-container{
+        background-color: yellow;
+    }
+    .image-width{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px){
+    h1{
+        color: brown;
+    }
+    .grid-container{
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        background-color: brown;
+
+    }
+    .image-width{
+        width: 95%;
+        display: grid;
+        margin: auto;
+
+    }
+
 }
