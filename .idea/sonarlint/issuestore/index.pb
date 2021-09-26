@@ -33,8 +33,6 @@ l
 <webbutveckling1/laxa/Lektioner/2021-09-14/grid/css/style.css,0\9\098ca3c5b59a55a2561c8d9dfb9710e86e8c3726
 V
 &webbutveckling1/laxa/om-mig/About.html,6\5\650b8adf78a616bc43cbe86ab6eade74443583db
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 Y
 )webbutveckling1/laxa/inlamning/index.html,e\d\ed0ce398eb37b54cc0633edf98ceeef469d717fb
 d
