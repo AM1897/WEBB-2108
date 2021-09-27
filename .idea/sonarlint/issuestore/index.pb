@@ -25,3 +25,17 @@ _
 +webbutveckling1/laxa/inlamning/courses.html,e\a\eaceea0840dbfac5bfd088134bca7cf36c976a0a
 X
 (webbutveckling1/laxa/inlamning/README.md,9\4\943255fb5f485c8015b0311587a96dcbb89ba392
+V
+&webbut.1.hemmalektion/om-mig/style.css,5\8\587440f9d29d31bbcee4a1ccef4125dcf3d9bc79
+W
+'webbut.1.hemmalektion/om-mig/index.html,5\f\5f7bd51a7cfaa84acc3a81f28f55752bb7264305
+e
+5webbut.1.hemmalektion/Övning/nyhemsida/css/style.css,c\4\c4545bf7d1955b7235a6c8cfc7bc8dad0d65e895
+j
+:webbut.1.hemmalektion/Övning/gridandflexbox/css/style.css,5\3\53b6394b7cd4bfb070a543b565eeeee160e78cd8
+f
+6webbut.1.hemmalektion/Övning/gridandflexbox/eget.html,6\b\6b773b2355b73a7a93705a092f1e850df5666299
+b
+2webbut.1.hemmalektion/Övning/nyhemsida/index.html,7\0\7005064a342c4fac10ecb5ebcdd2a5c781bb70aa
+W
+'webbut.1.hemmalektion/om-mig/About.html,a\1\a158aa1a05689a1f9e7f4d5d56438a5d171b2241
