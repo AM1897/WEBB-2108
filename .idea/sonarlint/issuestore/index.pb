@@ -1,10 +1,6 @@
 
 Y
 )webbutveckling1/laxa/inlamning/index.html,e\d\ed0ce398eb37b54cc0633edf98ceeef469d717fb
-e
-5webbutveckling1/laxa/Övning/gridandflexbox/eget.html,a\c\ac9f4e6fc6cdb291b8a1b5675d611c2414b2c519
-i
-9webbutveckling1/laxa/Övning/gridandflexbox/css/style.css,6\e\6e2c8cae366cde445ae122899d85ddb684ead773
 ]
 -webbutveckling1/laxa/inlamning/css/footer.css,9\9\992b401f22050bdf6dc84b85415fa0ce930cc003
 \
