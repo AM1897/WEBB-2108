@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    max-width: 1200px;
+    background-color: wheat;
+    margin: auto;
+    padding: 0;
+
+}
+
+header {
+
+    background-color: coral;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid black;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav {
+    background-color: salmon;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+main {
+    background-color: coral;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+img {
+    width: 80%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container{
+
+}
+
+.grid-container {
+
+}
+.album{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
