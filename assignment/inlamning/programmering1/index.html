@@ -3,55 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping</title>
+    <title>Max&Dan</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
 <header>
-
     <div class="container">
-
-        <section class="grid-item1">Max & Dan</section>
-        <section class="grid-item2">
+        <section class="grid-item">Max & Dan</section>
             <label id="search">Sök:<input typ='text' value="Sök"></label>
-        </section>
+        <div class="dropdown">
+            <div onclick="openMenu()"><img src="img/19-197737_shopping-cart-shop-basket-buy-check-out-checkout.png"/></div>
+            <button class="dropdown-button" onclick="openMenu()">
+                Kundkorg
+            </button>
+            <div id="dropdown" class="dropdown-content">
+                <a href="#">Kort betalning</a>
 
-
-
-
-            <div class="dropdown">
-                <button class="dropdown-button" onclick="openMenu()">
-                    Kundkorg
+                <section class="grid-item1"></section>
+                <button onclick="closeMenu()">
+                    Stäng Kundkorg
                 </button>
-                <div id="dropdown" class="dropdown-content">
-                    <a href="#">Kort betalning</a>
-
-                    <section class="grid-item1"></section>
-
-                    <button onclick="closeMenu()">
-                        Stäng Kundkorg
-                    </button>
-                </div>
             </div>
-
-
-
+        </div>
     </div>
-
 </header>
 
-<nav class="flex-container">
-    <ul>
-        <li>Våra album</li>
-        <li>Nyheter</li>
-        <li>Topplistor</li>
-        <li>Play</li>
-        <li>Julklappar</li>
-        <li>Erbjudande</li>
-    </ul>
+<nav>
+    <section class="flex-container">
+        <ul>
+            <li>Våra album</li>
+            <li>Nyheter</li>
+            <li>Topplistor</li>
+            <li>Play</li>
+            <li>Julklappar</li>
+            <li>Erbjudande</li>
+        </ul>
+    </section>
+
 </nav>
+
 <main>
     <div class="grid-container">
         <section>
@@ -60,14 +51,9 @@
                 Architecto dolorum incidunt, nobis quibusdam quo quos ratione unde vel?
                 Accusantium aspernatur at, cum harum id iure nihil obcaecati quia sapiente voluptas.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Architecto dolorum incidunt, nobis quibusdam quo quos ratione unde vel?
-                Accusantium aspernatur at, cum harum id iure nihil obcaecati quia sapiente voluptas.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Architecto dolorum incidunt, nobis quibusdam quo quos ratione unde vel?
-                Accusantium aspernatur at, cum harum id iure nihil obcaecati quia sapiente voluptas.
             </p>
         </section>
-        <section class="album">
+        <section class="albums">
             <article><img src="img/Skärmbild 2021-10-23 152138.png"/>
                 <p>Revival</p>
                 <p>99:-</p>
@@ -123,5 +109,6 @@
 </main>
 
 <script src="js/script.js"></script>
+<script src="js/albums.js"></script>
 </body>
 </html>
