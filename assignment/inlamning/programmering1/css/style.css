@@ -25,7 +25,14 @@ header {
     font-size: xxx-large;
     font-family: "Brush Script MT";
 }
+.kundKorg{
+    width: 10%;
+}
 
+.dropdown a {
+    color: salmon;
+    font-size: large;
+}
 .dropdown a:hover {
     background-color: chocolate;
 }
@@ -58,12 +65,17 @@ main {
 img {
     width: 100%;
 }
-
-.albums{
+#albums{
     padding: 1em;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 3em;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 1.5em;
+
 }
 .show{
     display: block;

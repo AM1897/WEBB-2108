@@ -5,27 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max&Dan</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+
 </head>
 <body>
 
 <header>
     <div class="container">
         <section class="grid-item">Max & Dan</section>
-            <label id="search">Sök:<input typ='text' value="Sök"></label>
+        <label id="search">Sök:<input type='text' value="Sök"></label>
+
         <div class="dropdown">
-            <div onclick="openMenu()"><img src="img/19-197737_shopping-cart-shop-basket-buy-check-out-checkout.png"/></div>
+            <div onclick="openMenu()">
+                <img class="kundKorg" src="img/19-197737_shopping-cart-shop-basket-buy-check-out-checkout.png" alt="kundKorg"/></div>
             <button class="dropdown-button" onclick="openMenu()">
                 Kundkorg
             </button>
-            <div id="dropdown" class="dropdown-content">
-                <a href="#">Kort betalning</a>
 
+            <div id="dropdown" class="dropdown-content">
+                <a href="#">Din Kundkorg</a>
+                <hr>
                 <section class="grid-item1"></section>
                 <button onclick="closeMenu()">
-                    Stäng Kundkorg
+                    Stäng
+                </button>
+                <button>
+                    Till Kassan
                 </button>
             </div>
         </div>
+
     </div>
 </header>
 
@@ -40,7 +51,6 @@
             <li>Erbjudande</li>
         </ul>
     </section>
-
 </nav>
 
 <main>
@@ -53,62 +63,15 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
         </section>
-        <section class="albums">
-            <article><img src="img/Skärmbild 2021-10-23 152138.png"/>
-                <p>Revival</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 152109.png"/>
-                <p>Relapse</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 152045.png"/>
-                <p>Music To Be Murdered By</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 152019.png"/>
-                <p>Kamikaze</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 151952.png"/>
-                <p>Encore</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 151924.png"/>
-                <p>Curtain Call</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 151843.png"/>
-                <p>The Eminem Show</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 151722.png"/>
-                <p>Recovery</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 151625.png"/>
-                <p>The Marshall Mathers LP</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
-            <article><img src="img/Skärmbild 2021-10-23 164100.png"/>
-                <p>The Marshall Mathers LP 2</p>
-                <p>99:-</p>
-                <button onclick="">Köp</button>
-            </article>
+        <section id="albums">
         </section>
     </div>
 </main>
 
 <script src="js/script.js"></script>
 <script src="js/albums.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/dropdown.js"></script>
+<script src="js/nav.js"></script>
 </body>
 </html>
