@@ -63,21 +63,104 @@ let albums = [
 ]
 
 
-function renderSingleAlbum(albums) {
+function renderSingleAlbum(album) {
     return `
     <article id=albumToBy>
-        <img src=${albums.image} alt=${albums} class="img" id=${albums}>
-            <p>${albums.name}</p>
-            <p>Pris: ${albums.price}:-</p>
-            <button onClick="addAlbum('${albums}','${albums.name}','${albums.image}', ${albums.price})">Köpa</button>
+        <img src=${album.image} alt=${album} class="img" id=${album}>
+            <p>${album.name}</p>
+            <p>Pris: ${album.price}:-</p>
+            <button id="${album.name}">Köpa</button>
     </article> `
-        ;
 }
 
 let renderAllAlbums = [];
 
-for (let i = 0; i < albums.length; i++) {
-    renderAllAlbums.push(renderSingleAlbum(albums[i]))
+function updateElementIdHtml(elementId, html) {
+    document.getElementById(elementId).innerHTML = html
 }
 
-document.getElementById("albums").innerHTML = renderAllAlbums;
+function updateContent() {
+    let htmlElement = ''
+
+    for (const album of albums) {
+        console.log(album)
+        htmlElement += renderSingleAlbum(album)
+    }
+
+    updateElementIdHtml('albums', htmlElement)
+}
+
+updateContent()
+
+function itemAlreadyInCart(name) {
+    return (albums[0] === name)
+}
+
+function updateQuantity() {
+    renderAllAlbums[0].quantity += 1
+}
+
+
+function insertItemToCart(album) {
+    renderAllAlbums.push({
+        Title: album.name,
+        Type: album.type,
+        Price: album.price,
+        quantity: 1,
+    });
+}
+
+function something(album) {
+    if (renderAllAlbums.length === 0) {
+        insertItemToCart(album);
+    } else {
+        if (itemAlreadyInCart(album)) {
+            updateQuantity(album);
+        } else {
+            insertItemToCart(album);
+        }
+    }
+    console.log(renderAllAlbums)
+}
+
+window.addEventListener('load', function () {
+    document.getElementById(albums[0].name)
+        .addEventListener('click', function () {
+            something(albums[0])
+        });
+
+    document.getElementById(albums[1].name)
+        .addEventListener('click', function () {
+            something(albums[1])
+        });
+
+    document.getElementById(albums[2].name)
+        .addEventListener('click', function () {
+            something(albums[2])
+        });
+
+    document.getElementById(albums[3].name)
+        .addEventListener('click', function () {
+            something(albums[3])
+        });
+
+    document.getElementById(albums[4].name)
+        .addEventListener('click', function () {
+            something(albums[4])
+        });
+
+    document.getElementById(albums[5].name)
+        .addEventListener('click', function () {
+            something(albums[5])
+        });
+
+    document.getElementById(albums[6].name)
+        .addEventListener('click', function () {
+            something(albums[6])
+        });
+
+    document.getElementById(albums[7].name)
+        .addEventListener('click', function () {
+            something(albums[7])
+        });
+})
