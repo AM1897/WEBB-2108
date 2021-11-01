@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     max-width: 100%;
     background-color: wheat;
@@ -9,27 +8,25 @@ body {
     padding: 1em;
 }
 
-header {
+.container {
     background-color: coral;
-    padding: 1em;
-    border: 1px solid black;
-}
-
-.container{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    padding: 2em;
+
+
 }
 .grid-item{
     text-align: left;
     font-size: xxx-large;
     font-family: "Brush Script MT";
 }
-.kundKorg{
-    width: 10%;
+.img{
+    width: 13%;
 }
 
-.dropdown a {
+.dropdown  {
     color: salmon;
     font-size: large;
 }
@@ -65,7 +62,7 @@ main {
 img {
     width: 100%;
 }
-#albums{
+.album{
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -77,6 +74,17 @@ img {
     margin: 1.5em;
 
 }
+#allAlbums {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+
+}
 .show{
     display: block;
+}
+
+.cartSumQuantityShipping{
+    background-color: snow;
 }

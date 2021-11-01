@@ -9,15 +9,3 @@ b
 2assignment/inlamning/webbutveckling1/css/index.css,b\b\bb826ca3843218ae340f10dce827c31fe4c14dd8
 _
 /assignment/inlamning/webbutveckling1/about.html,2\0\204c302610eb5d65c020423ee4d2dd4036a9203a
-d
-4assignment/inlamning/programmering1/css/dropdown.css,6\3\635c4d146a26896c28f104eabf062ebb25041422
-b
-2assignment/inlamning/programmering1/css/header.css,2\7\27a18a2db5793a66bc223fb544c0032c525ad31c
-_
-/assignment/inlamning/programmering1/css/nav.css,9\d\9dd2d50b5b2565f90ba8dad311887aed2b8f997b
-]
--assignment/inlamning/programmering1/js/nav.js,7\f\7ffe57114e6236bf11c0c3bc8cb6924ff5c52f01
-b
-2assignment/inlamning/programmering1/js/dropdown.js,5\2\527499a2657a0ca8923671169a165a5340a1563e
-a
-1assignment/inlamning/programmering1/css/style.css,b\f\bf4fb3e0b673ae419946a94d87e199ddbcc47d15

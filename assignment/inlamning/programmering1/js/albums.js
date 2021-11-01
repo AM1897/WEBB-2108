@@ -1,93 +1,87 @@
-class Albums {
-    constructor(image, name, price, id) {
-    this.image = image
-        this.name = name
-        this.price = price
+class Album {
+    constructor(id, name, image, price) {
         this.id = id
+        this.name = name
+        this.image = image
+        this.price = price
     }
 }
 
-let allAlbums = [
-    new Albums(
-        "img/2021-10-23-152138.png",
+let data = [
+    new Album(
+        'one',
         "Revival 2017",
-        99,
-        'Revival'
+        "img/2021-10-23-152138.png",
+        129
     ),
-    new Albums(
-        "img/2021-10-23-152109.png",
+    new Album(
+        'two',
         "Relapse 2009",
-        99,
-        'Relapse'
+        "img/2021-10-23-152109.png",
+        129
     ),
-    new Albums(
-        "img/2021-10-23-152045.png",
-        "Music To Be Murdered By 2020",
-        99,
-        'Music To Be Murdered By'
-    ),
-    new Albums(
+    new Album(
+        'three',
+        "Kamikaze 2018",
         "img/2021-10-23-152019.png",
-        "kamikaze 2018",
-        99,
-        'kamikaze'
+        129
     ),
-new Albums(
-    "img/2021-10-23-151952.png",
-    "Encore 2004",
-    99,
-    'Encore'
-),
-
-new Albums(
-    "img/2021-10-23-151924.png",
-    "Curtain Call 2005",
-    99,
-    'Curtain Call'
-),
-
-new Albums(
-    "img/2021-10-23-151843.png",
-    "The Eminem Show 2002",
-    99,
-    'The Eminem Show'
-),
-new Albums(
-    "img/2021-10-23-151722.png",
-    "Recovery 2010",
-    99,
-    'Recovery'
-),
-    new Albums(
-        "img/2021-10-23-151625.png",
+    new Album(
+        'four',
+        "Encore 2004",
+        "img/2021-10-23-151952.png",
+        129
+    ),
+    new Album(
+        'five',
+        "Curtain Call 2005",
+        "img/2021-10-23-151924.png",
+        129
+    ),
+    new Album(
+        'six',
+        "The Eminem Show 2002",
+        "img/2021-10-23-151843.png",
+        129
+    ),
+    new Album(
+        'seven',
+        "Recovery 2010",
+        "img/2021-10-23-151722.png",
+        129
+    ),
+    new Album(
+        'eight',
+        "Music To Be Murdered By 2020",
+        "img/2021-10-23-152045.png",
+        129
+    ),
+    new Album(
+        'nine',
         "The Marshall Mathers LP 2000",
-        99,
-        'The Marshall Mathers LP'
+        "img/2021-10-23-151625.png",
+        129
     ),
-
-    new Albums(
-        "img/2021-10-23-164100.png",
+    new Album(
+        'ten',
         "The Marshall Mathers LP 2",
-        99,
-        'The Marshall Mathers LP 2'
-    ),
-
+        "img/2021-10-23-164100.png",
+        129
+    )
 ]
 
-
-function renderSingleAlbum(album) {
+function showAlbum(album){
     return `
     <article id=albumToBy>
-        <img src=${album.image} alt=${album} class="img" id=${album}>
+            <img src=${album.image} alt=${album.name} class="imgAlbum" id=${album.image}>
             <p>${album.name}</p>
-            <p>${album.price}:-</p>
-            <button onclick="buy('${album.image}','${album.name}','${album.price}','${album.id}')">Köp</button>
-    </article> `
+            <p>Pris: ${album.price}:-</p>
+            <button onclick="buttonBye('${album.id}', '${album.name}', '${album.image}', '${album.price}')">Köp</button>
+    </article> 
+ `;
 }
-
-let renderAllAlbums = [];
-
-for (const album of allAlbums){
-    renderAllAlbums.push(renderSingleAlbum(album))
+let renderAlbums = [];
+for (const item of data){
+    renderAlbums.push(showAlbum(item))
 }
-document.getElementById('albums').innerHTML = renderAllAlbums
+document.getElementById('allAlbums').innerHTML = renderAlbums;
