@@ -1,40 +1,51 @@
+
+//Shopping korg
 class AlbumToBye {
     constructor(id, name, image, price) {
         this.id = id
         this.name = name
         this.image = image
         this.price = price
+        this.quantity = 1
+        this.totalSum = price
     }
 }
 
-let myCart =[]
-let totalSumCart = 0
-let quantityInCart = 0
+let myCart = []             //Mina album i en tom array
+let totalSumCart = 0        //Total summa i kundvagnen
+let quantityInCart = 0      //Antal album i kundvagnen
 
-function buttonBye(id, name, image, price){
+//Antalet av album. Om man har en så skall den uppdatera antal
+function buttonBye(id, name, image, price) {
     let exist = updateAlbumInCart(id);
+
+//Finn det album? Nej! lägg till i kundvagnen
+    if (exist === false) {
+        let newAlbum = new AlbumToBye(id, name, image, price)
+        myCart.push(newAlbum)
+    }
+    renderCart()
 }
 
-if (exist === false){
-    let newAlbum = new AlbumToBye(id, name, image, price)
-    myCart.push(newAlbum)
-}
-
+//renderar album via knapp loop till kundvagnen
 function renderCart() {
     let renderCartAlbums = [];
-    for (const item of myCart){
+    for (const item of myCart) {
         renderCartAlbums.push(showAlbum(item))
     }
     document.getElementById('allAddedAlbums').innerHTML = renderCartAlbums
+
 
     calculateTotalSumInCart()
     calculateShipping()
     calculateTotalQuantityInCart()
 }
-function showAlbum(album){
+
+//
+function showAlbum(album) {
     return `
     <article id="albumToBye${album.id}">
-        <img src=${album.image} alt=${album.name} class="imgAlbum" id=${album.image}>
+        <img src=${album.image} alt=${album.name} class="imgAlbumCart" id=${album.image}>
         <p>${album.name}</p>
         <p>Pris: ${album.price}:-</p>
         <input id="quantity${album.id}" type="number" onclick="addMore('${album.id}')" value="${album.quantity}" />
@@ -42,39 +53,45 @@ function showAlbum(album){
     </article>
     `;
 }
-function showTotalSum(totalSum){
+
+function showTotalSum(totalSum) {
     return `
     <article id="totalShowOfAddedAlbums">
         <p>Totalpris: ${totalSum}</p>
         </article>
         `;
 }
-function showTotalQuantity(quantity){
+
+function showTotalQuantity(quantity) {
     return `
     <article id="totalQuantityOfAddedAlbums">
         <p>Antal: ${quantity}</p>
         </article>
         `;
 }
-function showShippingCost(shippingText){
+
+function showShippingCost(shippingText) {
     return `
     <article id="totalShippingCostOfAddedAlbums">
         <p>${shippingText}</p>
         </article>
         `;
 }
-function openMenu(){
+
+function openMenu() {
     document.getElementById('dropdown')
         .classList.toggle('show')
 }
-function closeMenu(){
+
+function closeMenu() {
     document.getElementById('dropdown')
         .classList.toggle('show', false)
 }
-function updateAlbumInCart(id){
+
+function updateAlbumInCart(id) {
     let existInCart = false
-    for (const item of myCart){
-        if (item.id == id){
+    for (const item of myCart) {
+        if (item.id == id) {
             item.quantity += 1
             item.totalSum = item.price * item.quantity;
             existInCart = true
@@ -82,15 +99,17 @@ function updateAlbumInCart(id){
     }
     return existInCart
 }
-function calculateTotalSumInCart(){
+
+function calculateTotalSumInCart() {
     totalSumCart = 0
 
-    for (const item of myCart){
+    for (const item of myCart) {
         totalSumCart += parseInt(item.totalSum)
     }
     document.getElementById('totalSumOfAddedAlbums').innerHTML = showTotalSum(totalSumCart)
 }
-function calculateShipping(){
+
+function calculateShipping() {
     let costToFreeFreight = 259 - totalSumCart;
     let costTest = ""
 
@@ -101,7 +120,8 @@ function calculateShipping(){
     }
     document.getElementById('totalShippingOfAddedAlbums').innerHTML = showShippingCost(costTest)
 }
-function calculateTotalQuantityInCart(){
+
+function calculateTotalQuantityInCart() {
     quantityInCart = 0
 
     for (const item of myCart) {
@@ -110,6 +130,7 @@ function calculateTotalQuantityInCart(){
 
     document.getElementById('totalQuantityOfAddedAlbums').innerHTML = showTotalQuantity(quantityInCart)
 }
+
 function addMore(id) {
     let newValue = document.getElementById("quantity" + id).value;
     if (parseInt(newValue) <= 0) {
@@ -119,10 +140,9 @@ function addMore(id) {
                 document.getElementById("albumToBy" + id).remove()
             }
         }
-    }
-    else {
+    } else {
         let totalSum = updateAlbumInCartWithNewValue(id, newValue)
-        if(!!totalSum) {
+        if (!!totalSum) {
             document.getElementById("totalSum" + id).innerText = "Total: " + totalSum + ":-";
         }
     }
@@ -130,11 +150,13 @@ function addMore(id) {
     calculateShipping()
     calculateTotalQuantityInCart()
 }
+
 function pay() {
-    alert ('Tack för din betalning')
+    alert('Tack för din betalning')
 }
-function inputButton(){
-    alert ('Testa ett annat sökord')
+
+function inputButton() {
+    alert('Testa ett annat sökord')
 }
 
 renderCart()

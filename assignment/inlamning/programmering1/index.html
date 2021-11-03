@@ -10,42 +10,41 @@
 <body>
 
 
-
 <header class="container">
-        <section>
-            <article class="grid-item">MaxDan</article>
-        </section>
-        <section>
-            <label id="search">Sök:<input type='text' value="Sök"></label>
-        </section>
-        <section>
+    <section>
+        <article class="grid-item">MaxDan</article>
+    </section>
+    <section>
+        <label id="search">Sök:<input type='text' value="Sök"></label>
+    </section>
+    <section>
 
-            <din class="dropdown">
-                <div onclick="openMenu()">
-                    <img src="img/19-197737_shopping-cart-shop-basket-buy-check-out-checkout.png" alt="kundkorg"
-                         class="img"/></div>
-                <button class="dropdown-button" onclick="openMenu()">Kundkorg
-                </button>
-                <div id="dropdown" class="dropdown-content">
-                    <p>Kundvagn</p>
+        <div id="dropdown-content">
+            <div onclick="openMenu()">
+                <img src="img/19-197737_shopping-cart-shop-basket-buy-check-out-checkout.png" alt="kundkorg"
+                     class="img"/></div>
+            <button class="dropdown-button" onclick="openMenu()">Kundkorg
+            </button>
+            <div id="dropdown" class="dropdown-content">
+                <p>Kundvagn</p>
+                <section>
+                    <article id="allAddedAlbums"></article>
+                    <article id="totalSumOfAddedAlbums"></article>
+                    <article id="totalQuantityOfAddedAlbums"></article>
+                    <article id="totalShippingOfAddedAlbums"></article>
                     <section>
-                        <article id="allAddedAlbums"></article>
-                        <article id="totalSumOfAddedAlbums"></article>
-                        <article id="totalQuantityOfAddedAlbums"></article>
-                        <article id="totalShippingOfAddedAlbums"></article>
-                        <section>
 
-                            <button onclick="closeMenu()">
-                                Stäng
-                            </button>
-                            <button onclick="betala">
-                                Till Kassan
-                            </button>
-                        </section>
+                        <button onclick="closeMenu()">
+                            Stäng
+                        </button>
+                        <button onclick="betala">
+                            Till Kassan
+                        </button>
                     </section>
-                </div>
-            </din>
-        </section>
+                </section>
+            </div>
+        </div>
+    </section>
 
 </header>
 <nav id="nav">
