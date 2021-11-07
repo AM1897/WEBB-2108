@@ -1,3 +1,6 @@
+// Klass för album som går att köpa
+// Skillnad på class och object är att klasser är typade och inte object.
+
 class Album {
     constructor(id, name, image, price) {
         this.id = id
@@ -69,7 +72,7 @@ let data = [
         129
     )
 ]
-
+//visar album i html
 function showAlbum(album){
     return `
     <article id=albumToBy>
@@ -80,6 +83,7 @@ function showAlbum(album){
     </article> 
  `;
 }
+// den loopar alla album och skriver ut i html
 let renderAlbums = [];
 for (const item of data){
     renderAlbums.push(showAlbum(item))
