@@ -13,9 +13,3 @@ _
 -assignment/inlamning/programmering1/js/nav.js,7\f\7ffe57114e6236bf11c0c3bc8cb6924ff5c52f01
 ]
 -assignment/inlamning/programmering1/README.md,f\0\f0d00710b30b38d938c9c4c3b2caccfc3e5133f5
-`
-0assignment/inlamning/programmering1/js/albums.js,5\f\5feabf41674411dfb4bcad05a68eaa2de547de07
-^
-.assignment/inlamning/programmering1/index.html,a\1\a1ea1ad7f7f0360f327eacd7e748913b7aa0488a
-^
-.assignment/inlamning/programmering1/js/cart.js,1\4\1467a96dee4b25ca947d719925b90abbc47d2d46

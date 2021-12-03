@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6EDDD;
+}
+
+img{
+    width: 50%;
+    display: grid;
+    margin: auto;
+}
+.video {
+    display: grid;
+    margin: 20px auto 20px auto;
+
+
+}
+
+footer {
+    padding-top: 1em;
+    display: block;
+    text-align: center;
+}
