@@ -1,4 +1,3 @@
-
 //Shopping korg
 class AlbumToBye {
     constructor(id, name, image, price) {
@@ -34,7 +33,6 @@ function renderCart() {
         renderCartAlbums.push(showAlbum(item))
     }
     document.getElementById('allAddedAlbums').innerHTML = renderCartAlbums
-
 
     calculateTotalSumInCart()
     calculateShipping()
@@ -177,5 +175,3 @@ function inputButton() {
 }
 // Kallas på globalt för att kunna skapa varukorgen när man öppnar sidan första gången.
 renderCart()
-
-

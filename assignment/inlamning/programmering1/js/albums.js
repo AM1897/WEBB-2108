@@ -1,5 +1,5 @@
 // Klass för album som går att köpa
-// Skillnad på class och object är att klasser är typade och inte object.
+// Skillnad på class och object är att klasser är FASTA och inte object.
 
 class Album {
     constructor(id, name, image, price) {
