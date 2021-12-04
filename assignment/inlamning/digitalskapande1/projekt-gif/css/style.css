@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6EDDD;
+}
+
+img{
+    width: 50%;
+    display: grid;
+    margin: auto;
+}
