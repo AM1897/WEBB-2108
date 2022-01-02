@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+/*Mobile*/
+body{
+    background-color: #212121;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+h1{
+    font-family: Roboto, serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4CAF50;
+    border-bottom: 1px solid #009688;
+    border-right: 1px solid #009688;
+    box-shadow: 4px 4px 5px #009688;
+    width: 50%;
+    margin-top: 10px;
+}
+.container {
+    font-family: Roboto, serif;
+    background-color: #212121;
+    color: #4CAF50;
+    text-align: center;
+    padding: 2em;
+}
+.grid-item{
+    font-family: Roboto, serif;
+    text-align: center;
+    color: #4CAF50;
+    font-size: xx-large;
+}
+.grid-container{
+
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #009688;
+    text-align: left;
+    margin: auto auto 70px auto;
+    color: black;
+
+}
+.image-width{
+    width: 100%;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    h1 {
+        color: #4CAF50;
+        border-bottom: 1px solid #009688;
+        border-right: 1px solid #009688;
+        box-shadow: 4px 4px 5px #009688;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .grid-item{
+        text-align: left;
+        font-size: x-large;
+    }
+    .grid-container{
+        background-color:#009688;
+    }
+    .img-responsive{
+        width: 100%;
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 1100px) {
+    h1 {
+        color: #4CAF50;
+        border-bottom: 1px solid #009688;
+        border-right: 1px solid #009688;
+        box-shadow: 4px 4px 5px #009688;
+    }
+    .container {
+        font-family: Roboto, serif;
+        background-color: #212121;
+        color: #4CAF50;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 2em;
+    }
+    .grid-item{
+        text-align: left;
+        font-size: xxx-large;
+    }
+    .grid-container {
+        width: 70%;
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        background-color: #009688;
+
+    }
+    .image-width {
+        width: 75%;
+        display: grid;
+        margin: auto;
+    }
+}
