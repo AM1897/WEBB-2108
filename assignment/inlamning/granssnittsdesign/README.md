@@ -4,7 +4,7 @@ inlämning
 
 <h1>Gränssnittsdesign</h1>
 
-<h2>Projektbeskrivning av Webbutveckling 1</h2>
+<h2>Projektbeskrivning av Gränssnittsdesign</h2>
 
 Min inlämning till denna kurs som är UX/UI. Jag valde att göra en fotbolls blogg, där alla kan vara med oavsett ålder.
 Jag ville göra en ovanlig hemsida med annorlunda färg tema. Här är min hex kod
