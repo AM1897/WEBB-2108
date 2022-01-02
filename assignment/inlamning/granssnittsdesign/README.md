@@ -18,23 +18,23 @@ Jag ville göra en ovanlig hemsida med annorlunda färg tema. Här är min hex k
 <h4>Planeringen på Draw.io</h4>
 Dessa har jag valt som är bloggare på min hemsida.
 
-![Personas](../../../../../../Users/aram1/OneDrive/Bilder/Skärmbilder/Persona.png)
+![Persona](vanilla_html_typsnitt/img/Persona.png)
 <hr>
 
 Iphone layout.
 
-![Iphone](../../../../../../Users/aram1/OneDrive/Bilder/Skärmbilder/Iphone.png)
+![Iphone](vanilla_html_typsnitt/img/Iphone.png)
 
 <hr>
 
 Ipad layout.
 
-![Ipad](../../../../../../Users/aram1/OneDrive/Bilder/Skärmbilder/Ipad.png)
+![Ipad](vanilla_html_typsnitt/img/Ipad.png)
 <hr>
 
 Desktop layout
 
-![](../../../../../../Users/aram1/OneDrive/Bilder/Skärmbilder/Desktop.png)
+![Desktop](vanilla_html_typsnitt/img/Desktop.png)
 <hr>
 
 Här jobbade jag med olika färger men till slut valde jag en tråkig färg tema för att få det lite udda och ihågkommen 
@@ -49,6 +49,8 @@ Jag använde samma projekt som jag hade i webbutveckling 1 och i programmering 1
 
 <h3>Beskriv något som var besvärligt att få till:</h3>
 Det som var svårt att hitta en färg som lockar till sig folk, det ledde till att jag kollade upp olika hemsidor för att få en ide om vilka färger som är vanligast.
+
+
 [Fotbollskanalen](https://www.fotbollskanalen.se/)
 
 [SvenskaFans](https://www.svenskafans.com/)

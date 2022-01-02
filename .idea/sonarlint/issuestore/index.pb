@@ -49,3 +49,7 @@ z
 Jassignment/inlamning/granssnittsdesign/vanilla_html_typsnitt/css/index.css,e\4\e4a3b1c5d82d57db5d91406cbc0ff4d6e93a97ca
 {
 Kassignment/inlamning/granssnittsdesign/vanilla_html_typsnitt/css/navbar.css,9\b\9b0b3249c26f1cb98a949dff8e2e658ac3f62142
+w
+Gassignment/inlamning/granssnittsdesign/vanilla_html_typsnitt/index.html,f\1\f1e859e292244c49319122cf1f9ddf7a12c35d7e
+~
+Nassignment/inlamning/granssnittsdesign/vanilla_html_typsnitt/dagens-blogg.html,9\8\980a04985e29ea30adce272e6475e72c5bd3c23b
