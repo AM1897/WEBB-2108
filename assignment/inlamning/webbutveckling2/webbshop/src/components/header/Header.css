@@ -1,0 +1,72 @@
+
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 2em;
+}
+.grid-item{
+    text-align: left;
+    font-size: xxx-large;
+    font-family: "Brush Script MT";
+}
+.img{
+    width: 13%;
+}
+
+
+.dropdown-button:hover, .dropdown-button:focus{
+    background-color: burlywood;
+}
+.dropdown-content{
+    display: none;
+    position: revert;
+    background: linear-gradient(to bottom, rgba(222, 184, 135, 1) 0%, rgba(245, 222, 179, 1) 100%);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+nav {
+    background: linear-gradient(to top, rgba(222, 184, 135, 1) 0%, rgba(245, 222, 179, 1) 100%);
+    border: 1px solid wheat;
+    margin: 10px;
+}
+
+img {
+    width: 75%;
+}
+.album{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 3em;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 1.5em;
+
+}
+#allAlbums {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.show{
+    display: block;
+}
+
+.cartSumQuantityShipping{
+    background-color: snow;
+}
+
+.imgAlbumCart{
+    width: 25%;
+}
