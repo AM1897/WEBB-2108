@@ -1,0 +1,44 @@
+.nav {
+    background: linear-gradient(to top, rgba(222, 184, 135,1) 0%, rgba(245, 222, 179, 1)100%);
+
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(to top, rgba(222, 184, 135,1) 0%, rgba(245, 222, 179, 1)100%);
+
+    font-family: Cinzel, sans-serif;
+}
+
+.li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 1px solid coral;
+    color: coral;
+}
+
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navLinks {
+    background-color: #becdd6;
+    text-align: center;
+    margin-left: 70px;
+}

@@ -1,0 +1,12 @@
+.image{
+    height: 200px;
+}
+
+.byeButton {
+    width: 70px;
+    background-color: coral;
+    border-radius: 5px;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+}

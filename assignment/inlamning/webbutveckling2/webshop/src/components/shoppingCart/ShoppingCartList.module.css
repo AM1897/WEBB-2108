@@ -1,0 +1,42 @@
+.dropdownContent {
+    position: absolute;
+    background-color: burlywood;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 500px;
+    text-align: center;
+}
+
+.hr {
+    width: 450px;
+}
+
+.payButton {
+    background-color: #7edd7e;
+    border-radius: 5px;
+    border-style: none;
+    width: 90px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.endButton{
+    margin-left: 280px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.totalSum {
+    margin-left: 350px;
+}
+
+.closeButton {
+    background-color: #ea3f3f;
+    border-radius: 5px;
+    border-style: none;
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
