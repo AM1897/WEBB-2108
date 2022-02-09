@@ -59,3 +59,5 @@ Vassignment/inlamning/webbserverprogrammering/2022-02-08/first-server/package-lo
 Massignment/inlamning/webbserverprogrammering/2022-02-08/first-server/index.js,8\f\8fe7f5a7ce34b9dd6db4a7d4aaf85781b6947fbd
 ‚
 Rassignment/inlamning/webbserverprogrammering/2022-02-08/second-server/package.json,9\5\951403349e0209d624e7829b287f664d66621331
+i
+9assignment/inlamning/webbutveckling2/webshop/package.json,f\2\f2f737167772b850d825f1f76cfabc98d00225e9

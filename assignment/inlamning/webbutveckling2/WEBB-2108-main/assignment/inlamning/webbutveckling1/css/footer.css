@@ -1,0 +1,39 @@
+
+
+
+/*Mobile*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: chocolate;
+    text-align: center;
+    padding: 0.1em 0.2em 0.1em 0.2em;
+    margin: 1px;
+    display: block;
+}
+
+
+/*Table*/
+@media screen and (min-width: 768px) {
+    footer{
+        display: flex;
+        background-color: goldenrod;
+    }
+    .footer-item {
+        width: 50%;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1200px) {
+    footer{
+        display: flex;
+        background-color: #d22b1f;
+    }
+    .footer-item {
+        width: 50%;
+        }
+    }
+

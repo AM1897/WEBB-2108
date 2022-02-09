@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6EDDD;
+}
+
+.video {
+    display: grid;
+    margin: 20px auto 20px auto;
+
+}

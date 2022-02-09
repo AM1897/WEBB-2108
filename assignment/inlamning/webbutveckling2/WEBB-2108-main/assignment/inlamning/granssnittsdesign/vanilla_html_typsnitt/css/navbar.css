@@ -1,0 +1,49 @@
+
+#navbar {
+    background-color: #00796B;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-link {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0.84em 1em;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #B2DFDB;
+}
+
+.navbar-link:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px){
+    #navbar{
+        background-color: #00796B;
+    }
+    .navbar-item {
+        float: left;
+    }
+    .active{
+        background-color: #B2DFDB;
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 1200px){
+    #navbar{
+        background-color: #00796B;
+    }
+    .navbar-item {
+        float: left;
+    }
+    .active{
+        background-color: #B2DFDB;
+    }
+}
