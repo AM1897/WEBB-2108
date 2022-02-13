@@ -12,28 +12,26 @@ const ShoppingCartContext = createContext({
 });
 
 export function ShoppingCartContextProvider(props) {
-    //Album i varukorgen
     const [ itemsSelected, setItemsSelected] = useState([]);
 
-    //Total antal album i varukorgen
+
     const [ totalAlbum, setTotalAlbum] = useState(0);
 
-    //Slutsumman för alla album i varukorgen
+
     const [ totalSumInCart, setTotalSumInCart] = useState(0);
 
-    //Lägger till nytt album i varukorgen
+
     function addProductOnCartHandler(selectedItem) {
-        //Temp variable för att lagra alla album från useState
+
         let currentItems = [];
 
         setItemsSelected(prevItemsSelected => {
-            //Hämtar alla album då setItemsSelected är async så måste hämta album från selected
+
             currentItems = prevItemsSelected.concat(selectedItem);
             return currentItems;
         });
 
-        //Fråga om hur han skulle ha gjort här
-        //Räknar ut antalet
+
         setTotalAlbum(prevTotalAlbum => {
             prevTotalAlbum = 0;
             for (const product of currentItems) {
@@ -42,7 +40,7 @@ export function ShoppingCartContextProvider(props) {
             return prevTotalAlbum;
         })
 
-  //Räknar ut total summa
+
         setTotalSumInCart(prevTotalSumInCart => {
             prevTotalSumInCart = 0;
             for (const product of currentItems) {
@@ -50,21 +48,21 @@ export function ShoppingCartContextProvider(props) {
             }
             return prevTotalSumInCart;
         })
-        //Till hit
+
     }
 
-    //Tar bort album/antal/pris/totalsumma i varukorg
+
     function removeProductOnCartHandler(productId) {
-        //Temp variable för att lagra alla album från useState
+
         let currentItems = [];
 
         setItemsSelected(prevItemsSelected => {
-            //Hämtar alla album då setItemsSelected är async så måste hämta album från selected
+
             currentItems = prevItemsSelected.filter(product => product.id !== productId );
             return currentItems;
         })
 
-        //Räknar ut antalet
+
         setTotalAlbum(prevTotalAlbum => {
             prevTotalAlbum = 0;
             for (const product of currentItems) {
@@ -73,7 +71,7 @@ export function ShoppingCartContextProvider(props) {
             return prevTotalAlbum;
         })
 
-        //Räknar ut totalsumman
+
         setTotalSumInCart(prevTotalSumInCart => {
             prevTotalSumInCart = 0;
             for (const product of currentItems) {
@@ -83,9 +81,9 @@ export function ShoppingCartContextProvider(props) {
         })
     }
 
-    //Får album ett nytt värde, så uppdateras pris/antal/totalsumma
+
     function updateProductOnCartHandler(productId, newValue) {
-        //Temp variable för att lagra alla album från useState
+
         let currentItems = [];
 
         setItemsSelected(prevItemsSelected => {
@@ -95,12 +93,11 @@ export function ShoppingCartContextProvider(props) {
                     product.totalSum = product.price * product.quantity;
                 }
             }
-            //Hämtar alla album då setItemsSelected är async så måste hämta album från selected
+
             currentItems = prevItemsSelected;
             return currentItems;
         })
 
-        //Räknar ut antalet
         setTotalAlbum(prevTotalAlbum => {
             prevTotalAlbum = 0;
             for (const product of currentItems) {
@@ -109,7 +106,6 @@ export function ShoppingCartContextProvider(props) {
             return prevTotalAlbum;
         })
 
-        //Räknar ut totalsumman
         setTotalSumInCart(prevTotalSumInCart => {
             prevTotalSumInCart = 0;
             for (const product of currentItems) {
@@ -119,12 +115,10 @@ export function ShoppingCartContextProvider(props) {
         })
     }
 
-    //Kollar om albumet finns i varukorgen
     function itemIsProductOnCartHandler(productId) {
         return itemsSelected.some(product => product.id === productId);
     }
 
-    //Hämtar ett album från varukorgen om det finns annars undefined
     function productInCartHandler(productId) {
         return itemsSelected.find(product => product.id === productId);
     }
