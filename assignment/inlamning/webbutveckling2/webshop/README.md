@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<h1>Webbutveckling 2</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>WebbShop med React</h2>
+<hr>
 
-## Available Scripts
+[Trello planering](https://trello.com/b/ESYWAJhl/webbutveckling-2)
 
-In the project directory, you can run:
+<hr>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Layout](src/utils/global/image/layout.png)
+<hr>
+![](src/utils/global/image/layout.png)
+<h3>Beskriv lite olika lösningar du gjort.</h3>
+Jag hade 4 st länkar och en av de är album sidan och resten var bara för att visa att routing och navigeringen fungerar som det ska.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3>Beskriv något som var besvärligt att få till.</h3>
+Det som var svår var att översätta från JS till React, det fick mig arr göra om projektet 5 gånger och ändå lyckades inte sedan fick jag göra det på react direkt det tog mig 4 gånger även där fick jag hjälp av mina klasskamrater (Michaela, Christoffer och Ursula) Allt i det här projektet var svårt men det svåraste var useContext, och useState.
 
-### `npm test`
+<h3>Beskriv om du fått byta lösning och varför i sådana fall.</h3>
+Jag bytte min CSS till css.module. CSS är inte lika strikt som css.module. Det hjälpte mig att kunna justera allt som jag ville utan att det påverkade andra filer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Beskriv hur du felsökt ditt program när det uppstått problem</h3>
+Jag har alltid console.log uppe på den andra skärmen och i React så ser man nästan alltid vart man gjort fel. Jag använder mycket inspektor och nu har vi fått möjlighet till att ta tester i kodningen.
 
-### `npm run build`
+<h3>Vad gick bra</h3>
+Import mellan apparna gick väldigt bra. Css.module gick jätte bra. Jag använde ColorZilla och det funkade bra. Jag lyckades med allt jag ville ha med.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Vad gick dåligt</h3>
+Dropdown, UseState och useContext/provider. Jag hade väldigt svårt att få ihop allt i en säck, men det löste sig med hjälp av grupparbeten och att jag förstår hur de kopplar ihop.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3>Vad har du lärt dig</h3>
+Jag har lärt mig att använda navigering och det behöver man en routing för.
+Tester är något jag har sett fram emot och det är en viktig del i arbetet tycker jag. Jag har lärt mig lite gran men inte tillräckligt kan jag tycka.
+Det var mycket nytt i denna kursen och props var en av de. Det är en koppling mellan olika komponenter.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>Vilka möjligheter ser du med de kunskaper du fått under kursen.</h3>
+Med tanke på så stora företag som använder React så tror att det kan vara en bra framtid om man lägger lite mer tid på att lära sig. Man behöver många övningar innan man kan prata React. Grunden har jag fått lära mig nu underkursen. Det hade varit bra om kurden var längre och man gick in på det lite djupare.
 
-### `npm run eject`
+<h3>Motivera varför du valt en specifik lösning.</h3>
+Jag valde en simpel hemsida bara för att få känna på React hur mycket jag får av React.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h3>Lämna förslag på förbättringar av din kod.</h3>
+Jag ha nog lite för många mappar som inte behövs riktigt.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h3>Lämna exempel på lösningar du valde att inte implementera</h3>
+Jag ville ge mig på styling i JS filar och inte i CSS. Men det var för lite kunskap för att upp nå målet
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3>Lämna förslag på förbättringar av din UI/UX design eller reflektera över den.</h3>
+Jag tycker om ljusa färger och locka ögonen och inte trötta ut ögonen efter en lång tid.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

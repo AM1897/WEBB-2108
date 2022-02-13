@@ -8,6 +8,6 @@ beforeEach( () => {
     getByTestId = component.getByTestId
 })
 
-test('header renders with correct test 2', () => {
-    expect(getByTestId('cartItem').textContent).toBe('props.name')
+test('Button with correct text', () => {
+    expect(getByTestId('cardItemButton').textContent).toBe('Köp')
 })

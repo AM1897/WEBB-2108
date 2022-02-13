@@ -5,6 +5,10 @@
     background: linear-gradient(to top, rgba(222, 184, 135,1) 0%, rgba(245, 222, 179, 1)100%);
 }
 
+.sectionLogo{
+    text-align: center;
+    font-size: 30px;
+}
 
 
 .sectionSearch {

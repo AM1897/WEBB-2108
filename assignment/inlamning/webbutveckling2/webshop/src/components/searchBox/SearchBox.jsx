@@ -1,16 +1,15 @@
-import css from './SearchBox.module.css'
+import style from './SearchBox.module.css'
 import {useState} from "react";
 
 export default function SearchBox(){
 
     const [searchField, setSearchField] = useState('')
 
-
     return(
-        <section className={css.section}>
-            <input className={css.input}
+        <section className={style.section}>
+            <input className={style.input}
                    type='search'
-                   placeholder='Sök produkt'
+                   placeholder='Sök'
                    value={searchField}
                    onChange={event => setSearchField(event.target.value)}/>
         </section>

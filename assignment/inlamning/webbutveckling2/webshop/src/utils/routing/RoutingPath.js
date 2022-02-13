@@ -1,8 +1,8 @@
 const RoutingPath = {
-    hem: '/',
-    nyheter: '/nyheter',
+    startsida: '/startsida',
+    topplistor: '/topplistor',
     album: '/album',
-    kontakt: '/kontakt',
+    erbjudande: '/erbjudande',
 
 }
 

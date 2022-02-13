@@ -1,9 +1,9 @@
 import { useContext} from "react";
-import AlbumContext from "../../context/AlbumContext";
-import css from './CardItem.module.css'
+import ShoppingCartContext from "../../context/ShoppingCartContext";
+import style from './CardItem.module.css'
 
 export default function CardItem(props) {
-    const productOnCartCtx = useContext(AlbumContext);
+    const productOnCartCtx = useContext(ShoppingCartContext);
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
     const itemInCart = productOnCartCtx.itemInCart(props.id);
@@ -27,7 +27,7 @@ export default function CardItem(props) {
     return (
         <article>
             <div>
-                <img className={ css.image } src={props.image} alt={props.name}/>
+                <img className={ style.image } src={props.image} alt={props.name}/>
             </div>
             <div>
                 <h3>{props.name}</h3>
@@ -35,8 +35,9 @@ export default function CardItem(props) {
             </div>
             <div>
                 <button
-                        className={ css.byeButton }
+                        className={ style.byeButton }
                         id={props.id}
+                        data-testid='cardItemButton'
                         onClick={toggleProductOnCartStatusHandler}>Köp</button>
             </div>
         </article>

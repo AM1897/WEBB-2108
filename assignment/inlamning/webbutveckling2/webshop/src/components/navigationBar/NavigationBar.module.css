@@ -21,7 +21,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 10px 5px;
+    padding: 10px 40px;
     text-decoration: none;
 }
 
@@ -39,6 +39,6 @@ li a:hover:not(.active) {
 
 .navLinks {
     background-color: #becdd6;
-    text-align: center;
+    text-align: left;
     margin-left: 70px;
 }

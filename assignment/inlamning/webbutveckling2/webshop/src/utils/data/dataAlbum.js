@@ -60,13 +60,13 @@ const dataAlbum = [
         price: 49
     },
     {
-        id: 'eight',
+        id: 'nine',
         name: "The Marshall Mathers LP 2000",
         image: albumNine,
         price: 49
     },
     {
-        id: 'eight',
+        id: 'ten',
         name: "The Marshall Mathers LP 2",
         image: albumTen,
         price: 49

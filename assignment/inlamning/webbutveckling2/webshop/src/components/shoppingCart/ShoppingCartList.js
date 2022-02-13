@@ -1,11 +1,11 @@
 import {useContext} from "react";
 import ShoppingCartItem from './ShoppingCartItem'
-import AlbumContext from "../../context/AlbumContext";
-import css from './ShoppingCartList.module.css'
+import ShoppingCartContext from "../../context/ShoppingCartContext";
+import style from './ShoppingCartList.module.css'
 
 
 export default function ShoppingCartList(props) {
-    const productOnCartCtx = useContext(AlbumContext);
+    const productOnCartCtx = useContext(ShoppingCartContext);
 
     function cancelHandler() {
         props.onCancel();
@@ -18,9 +18,9 @@ export default function ShoppingCartList(props) {
     return (
         <div>
             <div>
-                <div className={css.dropdownContent}>
+                <div className={style.dropdownContent}>
                     <h2>Dina produkter</h2>
-                    <hr className={css.hr}/>
+
                     {
                         productOnCartCtx.productOnCart.map((user, index) => {
                             return (
@@ -36,21 +36,21 @@ export default function ShoppingCartList(props) {
                             )
                         })
                     }
-                    <hr className={css.hr}/>
-                    <section className={css.totalSum}>
+
+                    <section className={style.totalSum}>
                         <h3>Antal: {productOnCartCtx.totalAlbumInCart}</h3>
                     </section>
-                    <section className={css.totalSum}>
+                    <section className={style.totalSum}>
                         <h3>Totalsumma: {productOnCartCtx.totalSumInCart}</h3>
                     </section>
                     <article>
-                        <h3>{productOnCartCtx.totalSumInCart >= 259 ? 'Du har nu fri frakt!' : (259 - productOnCartCtx.totalSumInCart) + 'kr kvar till fri frakt'}</h3>
+                        <h3>{productOnCartCtx.totalSumInCart >= 259 ? 'Tack för att ni handlar hos oss, nu bjuder vi på fri frakt' : (259 - productOnCartCtx.totalSumInCart) + ' kr kvar till fri frakt'}</h3>
                     </article>
-                    <section className={css.endButton}>
-                        <button className={css.closeButton} onClick={cancelHandler}>
+                    <section className={style.endButton}>
+                        <button className={style.closeButton} onClick={cancelHandler}>
                             X
                         </button>
-                        <button className={css.payButton} onClick={pay}>
+                        <button className={style.payButton} onClick={pay}>
                             Betala
                         </button>
                     </section>

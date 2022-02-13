@@ -1,5 +1,5 @@
 .imageCart{
-    width: 80px;
+    width: 50%;
 }
 
 .gridContainer {
@@ -14,9 +14,7 @@
     border: solid black 1px;
 }
 
-.hr {
-    width: 400px;
-}
+
 
 .remove {
     width: 25px;
