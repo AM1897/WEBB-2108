@@ -1,10 +1,10 @@
-import DeleteUser from "../DeleteUser";
+import DeleteTodo from "../DeleteTodo";
 import {fireEvent, render} from "@testing-library/react";
 
 let getByTestId
 
 beforeEach(() => {
-    const component = render(<DeleteUser/>)
+    const component = render(<DeleteTodo/>)
     getByTestId = component.getByTestId
 })
 

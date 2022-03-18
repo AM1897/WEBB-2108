@@ -1,12 +1,12 @@
-import UsersService from "../utils/api/service/UsersService";
+import TodosService from "../utils/api/service/TodosService";
 import {useState} from "react";
 
-const DeleteUser = () => {
+const DeleteTodo = () => {
     const [data, setData] = useState('')
     const [name, setName] = useState('')
 
     const sendDataToApi = () => {
-        UsersService.deleteUser(name)
+        TodosService.deleteTodos(name)
             .then(response => {
                 setData(response.data)
             })
@@ -14,16 +14,16 @@ const DeleteUser = () => {
     }
     return (
         <>
-            <h1>DeleteUser</h1>
+            <h1>DeleteTodo</h1>
             <input type="text"
                    value={name}
                    onChange={e => setName(e.target.value)}/>
             <button data-testid='remove' onClick={sendDataToApi}>
-                Delete User
+                Delete Todo
             </button>
             <h3 data-testid='response'>{data}</h3>
         </>
     )
 }
 
-export default DeleteUser
+export default DeleteTodo

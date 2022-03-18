@@ -79,7 +79,7 @@ resources:
     modified: 1646992212441
     created: 1646782295287
     url: http://localhost:3001/user
-    name: CreateUser
+    name: CreateTodo
     description: ""
     method: POST
     body:
@@ -131,7 +131,7 @@ resources:
     modified: 1646992739602
     created: 1646783019958
     url: http://localhost:3001/user
-    name: UpdateUser
+    name: UpdateTodo
     description: ""
     method: PUT
     body:
@@ -334,7 +334,7 @@ resources:
     modified: 1646992020475
     created: 1646786230701
     requestId: req_39a91fcd743547738bb19b6b0667b347
-    name: CreateUser Returns 200
+    name: CreateTodo Returns 200
     code: |-
       const response1 = await insomnia.send();
       const body = JSON.parse(response1.data)

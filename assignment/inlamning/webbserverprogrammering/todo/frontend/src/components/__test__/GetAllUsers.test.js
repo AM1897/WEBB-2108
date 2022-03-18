@@ -1,13 +1,13 @@
-import GetAllUsers from "../GetAllUsers";
+import GetAllTodo from "../GetAllTodo";
 import {render} from "@testing-library/react";
 
 let getByTestId
 
 beforeEach(() => {
-    const component = render(<GetAllUsers/>)
+    const component = render(<GetAllTodo/>)
     getByTestId = component.getByTestId
 })
 
-test('Check that h1 contains the word GetAllUsers', () => {
-    expect(getByTestId('header').textContent).toBe('GetAllUsers')
+test('Check that h1 contains the word GetAllTodo', () => {
+    expect(getByTestId('header').textContent).toBe('GetAllTodo')
 })

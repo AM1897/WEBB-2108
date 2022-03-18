@@ -1,9 +1,9 @@
 import Alive from "./components/Alive"
 import './utils/global/global.css'
-import GetAllUsers from './components/GetAllUsers'
-import CreateUser from "./components/CreateUser";
-import UpdateUser from "./components/UpdateUser";
-import DeleteUser from "./components/DeleteUser";
+import GetAllTodo from './components/GetAllTodo'
+import CreateTodo from "./components/CreateTodo";
+import UpdateTodo from "./components/UpdateTodo";
+import DeleteTodo from "./components/DeleteTodo";
 import GetSingelDataByName from "./components/GetSingelDataByName";
 
 
@@ -13,10 +13,10 @@ function App() {
         <>
             <h1>TODO</h1>
             <Alive/>
-            <GetAllUsers/>
-            <CreateUser/>
-            <UpdateUser/>
-            <DeleteUser/>
+            <GetAllTodo/>
+            <CreateTodo/>
+            <UpdateTodo/>
+            <DeleteTodo/>
             <GetSingelDataByName/>
         </>
     )

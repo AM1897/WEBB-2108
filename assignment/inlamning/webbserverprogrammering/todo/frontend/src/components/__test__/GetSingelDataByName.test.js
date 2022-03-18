@@ -8,6 +8,6 @@ beforeEach(() => {
     getByTestId = component.getByTestId
 })
 
-test('Check that h1 contains the words Get Single Data By Name', () => {
-    expect(getByTestId('header').textContent).toBe('Get Single Data By Name')
+test('Check that h1 contains the words Get Single Todo By Name', () => {
+    expect(getByTestId('header').textContent).toBe('Get Single Todo By Name')
 })

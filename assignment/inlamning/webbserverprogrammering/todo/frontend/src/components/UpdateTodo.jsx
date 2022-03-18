@@ -1,8 +1,8 @@
-import UsersService from "../utils/api/service/UsersService";
+import TodosService from "../utils/api/service/TodosService";
 import {useState} from 'react'
 import Card from './Card.module.css/Card'
 
-const UpdateUser = () => {
+const UpdateTodo = () => {
     const [data, setData] = useState([])
     const [name, setName] = useState('')
     const [newName, setNewName] = useState('')
@@ -10,13 +10,13 @@ const UpdateUser = () => {
     const [todo, setTodo] = useState('')
 
     const sendDataToApi = () => {
-        const changedUser = {
+        const changedTodo = {
             'name': name,
             'newName': newName,
             'age': age,
             'todo': todo
         }
-        UsersService.updateUser(changedUser)
+        TodosService.updateTodos(changedTodo)
             .then(response => {
                 setData(response.data)
                 console.log(response.data)
@@ -36,11 +36,11 @@ const UpdateUser = () => {
 
             {data.name ? <Card name={data.name}
                                age={data.age}
-                               gender={data.todo}/>
+                               todo={data.todo}/>
                 : <h3>{data}</h3>}
         </>
     )
 }
 
-export default UpdateUser
+export default UpdateTodo
 

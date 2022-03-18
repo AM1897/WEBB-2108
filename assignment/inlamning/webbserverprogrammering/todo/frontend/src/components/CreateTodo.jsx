@@ -1,21 +1,20 @@
-import UsersService from '../utils/api/service/UsersService'
+import TodosService from '../utils/api/service/TodosService'
 import {useState} from "react";
-import Card from './Card.module.css/Card'
 import CardList from "./CardList";
 
-const CreateUser = () => {
+const CreateTodo = () => {
     const [data, setData] = useState([])
     const [name, setName] = useState('')
     const [age, setAge] = useState('')
     const [todo, setTodo] = useState('')
 
     const sendDataToApi = () => {
-        const newUser = {
+        const newName = {
             'name': name,
             'age': age,
             'todo': todo
         }
-        UsersService.createUser(newUser)
+        TodosService.createTodos(newName)
             .then(response => {
                 setData(response.data)
             })
@@ -23,7 +22,7 @@ const CreateUser = () => {
     }
     return (
         <>
-            <h1 data-testid='header'>CreateUser</h1>
+            <h1 data-testid='header'>CreateTodos</h1>
             <input type="text" value={name}
                    onChange={e => setName(e.target.value)}/>
             <input type="text" value={age}
@@ -31,12 +30,12 @@ const CreateUser = () => {
             <input type="text" value={todo}
                    onChange={e => setTodo(e.target.value)}/>
             <button onClick={sendDataToApi}>
-                Create New User
+                Create New Name
             </button>
 
-            <CardList users={data}/>
+            <CardList todo={data}/>
         </>
     )
 }
 
-export default CreateUser
+export default CreateTodo

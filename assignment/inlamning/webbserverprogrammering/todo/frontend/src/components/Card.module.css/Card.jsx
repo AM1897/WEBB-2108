@@ -1,17 +1,23 @@
-import { useState } from "react";
+import {useState} from "react";
 import style from './Card.module.css'
+import TodosService from "../../utils/api/service/TodosService"
 
-const Card = ({name, age, todo}) => {
+const Card = ({name, age, todo, taskIsDone, id}) => {
 
-    const [isActive, setActive] = useState(false);
+    const [isDone, setIsDone] = useState(taskIsDone)
 
-    const toggleClass = () => {
-      setActive(!isActive)
+    function toggleIsDone() {
+        TodosService.trueOrFalse(id)
+            .then(response => {
+                setIsDone(response.data.taskIsDone)
+                console.log(response.data)
+            })
+            .catch(error => console.log(error))
     }
 
     return (
         <div className={style.cursor}>
-            <p className={isActive ? style.crossOut: null} onClick={toggleClass}>{name} {age} {todo}</p>
+            <p className={isDone ? style.crossOut : null} onClick={toggleIsDone}>{name}  {age}  {todo}</p>
         </div>
     )
 }

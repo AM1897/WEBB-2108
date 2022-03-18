@@ -1,7 +1,7 @@
 import cors from 'cors'
 import express from 'express'
 
-// config stuff
+
 const allowedRequestOrigins = '*'
 const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
 

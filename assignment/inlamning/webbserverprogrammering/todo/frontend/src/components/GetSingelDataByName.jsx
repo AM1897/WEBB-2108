@@ -1,5 +1,5 @@
-import UsersService from "../utils/api/service/UsersService";
-import { useState } from "react";
+import TodosService from "../utils/api/service/TodosService";
+import {useState} from "react";
 import Card from "./Card.module.css/Card";
 
 const GetSingelDataByName = () => {
@@ -7,23 +7,23 @@ const GetSingelDataByName = () => {
     const [name, setName] = useState('')
 
     const sendDataToApi = () => {
-      UsersService.getSingleDataByName(name)
-          .then(response => {
-              setData(response.data)
-          })
-          .catch(error => console.log(error))
+        TodosService.getSingleTodosByName(name)
+            .then(response => {
+                setData(response.data)
+            })
+            .catch(error => console.log(error))
     }
-    console.log(data)
-    return(
+
+    return (
         <>
             <div>
-                <h1 data-testid='header'>Get Single Data By Name</h1>
+                <h1 data-testid='header'>Get Single Todo By Name</h1>
                 Name: <input type="text" value={name} onChange={event => setName(event.target.value)}/>
-                <button onClick={sendDataToApi}>Get Singel Data By Name</button>
+                <button onClick={sendDataToApi}>Get Singel Todo By Name</button>
                 {data.name ? <Card name={data.name}
                                    age={data.age}
-                                   gender={data.gender}/>
-                : <h3>{data}</h3>}
+                                   todo={data.todo}/>
+                    : <h3>{data}</h3>}
             </div>
         </>
     )

@@ -1,15 +1,18 @@
 import Card from "./Card.module.css/Card";
 
-const CardList =({ users }) => {
+const CardList =({ todo }) => {
     return (
         <>
             {
-                users.map((user, index) => {
+                todo.map((item) => {
                     return (
-                        <Card key={ index }
-                              name={user.name}
-                              age={user.age}
-                              todo={user.todo}/>
+                        <Card key={ item.id }
+                              name={item.name}
+                              age={item.age}
+                              todo={item.todo}
+                              taskIsDone={item.taskIsDone}
+                              id={item.id}
+                        />
                     )
                 })
             }
