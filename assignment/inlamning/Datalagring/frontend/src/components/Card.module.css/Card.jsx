@@ -2,8 +2,8 @@ import style from './Card.module.css'
 import {useState} from "react"
 import TodosService from "../../utils/api/service/TodosService";
 
-const Card = ({name, todo, todoIsDone, _id}) => {
-    const [isTodoDone, setTodoIsDone] = useState(todoIsDone)
+const Card = ({name, todo, todoDone, _id}) => {
+    const [isTodoDone, setTodoDone] = useState(todoDone)
     const toggleIsDone = () => {
         const load = {
             newTodoStatus: !isTodoDone
@@ -11,7 +11,7 @@ const Card = ({name, todo, todoIsDone, _id}) => {
         TodosService.toggleTodoDone(_id, load)
             .then(response => {
                 console.log(response.data)
-                setTodoIsDone(response.data)
+                setTodoDone(response.data)
             }).catch(error => console.log(error))
     }
 

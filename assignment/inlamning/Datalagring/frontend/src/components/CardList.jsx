@@ -11,7 +11,7 @@ const CardList = ({todo}) => {
                               _id={todo._id}
                               name={todo.name}
                               todo={todo.todo}
-                              taskIsDone={todo.todoIsDone}/>
+                              todoDone={todo.todoDone}/>
                     )
                 })
             }

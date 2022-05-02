@@ -1,6 +1,6 @@
 import TodosService from '../utils/api/service/TodosService'
 import {useState} from "react";
-import CardList from "./CardList";
+import Card from "./Card.module.css/Card";
 
 const CreateTodo = () => {
     const [data, setData] = useState([])
@@ -29,7 +29,7 @@ const CreateTodo = () => {
             <button onClick={sendDataToApi}>
                 Skapa ny användare
             </button>
-            {data.name ? <CardList name={data.name}
+            {data.name ? <Card name={data.name}
                                    todo={data.todo}
                                    _id={data._id}/>
                 : ''}

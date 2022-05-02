@@ -12,7 +12,7 @@ const createTodo = async (req, res) => {
         const newName = {
             name: name,
             todo: todo,
-            todoIsDone: false
+            todoDone: false
         }
         Logger.debug(newName)
 
@@ -151,16 +151,16 @@ const toggleTodoDone = (req, res) => {
             new: true
         }
         const Query = {
-            todoIsDone: newTodoStatus
+            todoDone: newTodoStatus
         }
         TodoModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, todo) => {
             if (error) {
                 Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
-                    error: `Det gick inte att ändra todoIsDone`
+                    error: `Det gick inte att ändra todoDone`
                 })
             } else {
-                res.status(StatusCode.OK).send(todo.todoIsDone)
+                res.status(StatusCode.OK).send(todo.todoDone)
             }
         })
     } catch (error) {

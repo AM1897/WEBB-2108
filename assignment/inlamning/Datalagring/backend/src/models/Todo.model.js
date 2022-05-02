@@ -7,7 +7,7 @@ const dbCollection = process.env.MONGODB_COLLECTION
 const TodoSchema = new mongoose.Schema({
         name: String,
         todo: String,
-        todoIsDone: false
+        todoDone: false
     },
 
     {timestamps: true}
